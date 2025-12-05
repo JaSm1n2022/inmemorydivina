@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Optional: Uncomment if you don't want to track large video files in git
+# videos/*.mp4
+# videos/*.mov
+# videos/*.avi
+
+# Node modules (if you add any build tools later)
+node_modules/
+
+# Netlify
+.netlify/
