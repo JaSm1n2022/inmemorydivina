@@ -245,6 +245,35 @@ blockquote {
     border-radius: 25px;
 }
 
+/* Video Link Button */
+.video-link-button,
+.facebook-link {
+    display: inline-block;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #1877f2 0%, #0e5fcc 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(24, 119, 242, 0.3);
+}
+
+.video-link-button:hover,
+.facebook-link:hover {
+    background: linear-gradient(135deg, #0e5fcc 0%, #1877f2 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(24, 119, 242, 0.4);
+}
+
+.media-placeholder a {
+    display: block;
+    margin: 15px auto;
+    width: fit-content;
+}
+
 .media-note {
     text-align: center;
     color: #777;
